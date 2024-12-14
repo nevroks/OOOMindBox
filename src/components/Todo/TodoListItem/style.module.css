@@ -1,0 +1,19 @@
+.TodoListItem {
+    padding: 14px 7px;
+    position: relative;
+}
+
+.TodoListItem-content {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.TodoListItem-divider {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(92, 92, 92, 0.568);
+}
