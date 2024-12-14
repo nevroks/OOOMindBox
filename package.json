@@ -1,5 +1,6 @@
 {
     "name": "ooomindbox",
+    "homepage": "https://nevroks.github.io/OOOMindBox/",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -9,7 +10,8 @@
         "format": "prettier --write .",
         "test": "vitest",
         "lint": "eslint .",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "deploy": "npm run build && gh-pages -d dist"
     },
     "dependencies": {
         "classnames": "^2.5.1",
